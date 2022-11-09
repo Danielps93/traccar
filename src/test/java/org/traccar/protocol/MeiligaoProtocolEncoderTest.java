@@ -36,10 +36,6 @@ public class MeiligaoProtocolEncoderTest extends ProtocolTest {
 
         verifyCommand(encoder, command, binary("4040001312345678901234410603e87bb00d0a"));
 
-        command.setType(Command.TYPE_ENGINE_STOP);
-
-        verifyCommand(encoder, command, binary("4040001212345678901234411501fd460d0a"));
-
     }
 
 }

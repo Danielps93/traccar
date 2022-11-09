@@ -100,7 +100,7 @@ public final class Main {
             };
             switch (args[0]) {
                 case "--install":
-                    windowsService.install("traccar", null, null, null, null, configFile);
+                    windowsService.install("visionsky", null, null, null, null, configFile);
                     return;
                 case "--uninstall":
                     windowsService.uninstall();
